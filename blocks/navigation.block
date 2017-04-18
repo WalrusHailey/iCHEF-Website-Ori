@@ -8,7 +8,7 @@
             <li class="{collection.typeLabel}-collection{.section active} active-link{.end}{.if collection.folder} folder{.end}{.if folderActive} active-link active-folder{.end}">
 
             {.index?}
-                <a href="{collection.fullUrl}"><span>{collection.navigationTitle}</span></a>
+                <a href="{collection.fullUrl}" title="{collection.navigationTitle}"><span>{collection.navigationTitle}</span></a>
             {.or folder?}
 
                   <!--FOLDER-->
